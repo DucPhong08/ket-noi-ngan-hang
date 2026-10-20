@@ -1,0 +1,14 @@
+{
+  "name": "lab-ket-noi-noi-dung-ptit",
+  "version": "1.0.0",
+  "description": "Lab 3 - Ket noi va duy tri ket noi giua cac service (Fee Service & Bank Mock)",
+  "main": "fee-service.js",
+  "scripts": {
+    "start:fee": "node fee-service.js",
+    "start:bank": "node bank-service.js",
+    "test:all": "node test-scenarios.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
